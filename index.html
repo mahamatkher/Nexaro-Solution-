@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth antialiased">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexaro Solutions Group | Connecting Solutions. Creating Possibilities.</title>
+    <link rel="icon" type="image/png" href="assets/images/nexaro-logo.png">
+    <meta name="description" content="We provide technology, digital, IT security, payment, and travel solutions to businesses, organizations, and individuals in Chad and Africa.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Tailwind Config -->
+    <script src="assets/js/main.js" defer></script>
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="fixed w-full top-0 z-50 bg-navy-700/95 backdrop-blur-md border-b border-white/10 transition-all duration-300" id="header">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-3">
+                <img src="assets/images/nexaro-logo.png" alt="Nexaro Logo" class="h-12 w-auto logo-img object-contain">
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:flex items-center gap-8">
+                <a href="#" class="nav-link active text-white font-semibold text-sm">Home</a>
+                <a href="about.html" class="nav-link text-gray-300 hover:text-white font-semibold text-sm">About</a>
+                <a href="services.html" class="nav-link text-gray-300 hover:text-white font-semibold text-sm">Services</a>
+                <a href="divisions.html" class="nav-link text-gray-300 hover:text-white font-semibold text-sm">Our Divisions</a>
+                <a href="contact.html" class="nav-link text-gray-300 hover:text-white font-semibold text-sm">Contact</a>
+            </nav>
+
+            <!-- CTA & Mobile Toggle -->
+            <div class="flex items-center gap-4">
+                <a href="contact.html" class="hidden md:inline-flex btn-gold px-6 py-2.5 rounded-full font-bold text-sm items-center gap-2">
+                    Get a Quote <i class="fa-solid fa-arrow-right text-xs"></i>
+                </a>
+                <button class="lg:hidden text-white text-2xl focus:outline-none" id="mobile-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Nav Dropdown -->
+        <div class="lg:hidden hidden bg-navy-900 border-t border-white/10" id="mobile-menu">
+            <div class="px-6 py-4 flex flex-col gap-4">
+                <a href="#" class="text-white font-semibold">Home</a>
+                <a href="about.html" class="text-gray-300 font-semibold">About</a>
+                <a href="services.html" class="text-gray-300 font-semibold">Services</a>
+                <a href="divisions.html" class="text-gray-300 font-semibold">Our Divisions</a>
+                <a href="contact.html" class="text-gray-300 font-semibold">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section min-h-[90vh] flex items-center pt-20" id="home">
+        <div class="hero-overlay"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10 w-full">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <span class="text-gold-400 font-extrabold text-sm tracking-widest uppercase mb-4 block">Nexaro Solutions Group</span>
+                    <h1 class="font-heading text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
+                        Connecting Solutions.<br>
+                        Creating <span class="text-teal-400">Possibilities.</span>
+                    </h1>
+                    <p class="text-gray-300 text-lg lg:text-xl max-w-lg mb-8 leading-relaxed">
+                        We provide technology, digital, IT security, payment, and travel solutions to businesses, organizations, and individuals.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="services.html" class="btn-gold px-8 py-3.5 rounded-full font-bold text-base flex items-center gap-2">
+                            Explore Our Services <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="about.html" class="btn-outline px-8 py-3.5 rounded-full font-bold text-white text-base">
+                            About Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-24 bg-white" id="services">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-12 gap-12">
+                <div class="lg:col-span-4" data-aos="fade-right">
+                    <span class="text-gold-500 font-extrabold text-sm tracking-widest uppercase mb-3 block">Our Services</span>
+                    <h2 class="font-heading text-4xl font-bold text-navy-700 leading-tight mb-6">
+                        Comprehensive Solutions for a Smarter Tomorrow
+                    </h2>
+                    <p class="text-gray-500 text-lg leading-relaxed mb-8">
+                        From technology to travel, we bring together innovative solutions to simplify your life and grow your business.
+                    </p>
+                </div>
+                
+                <div class="lg:col-span-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Service 1 -->
+                    <div class="service-card bg-white border border-gray-100 rounded-2xl p-6 shadow-sm" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon-box bg-blue-500">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-navy-700 mb-2">Web & Mobile Development</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Modern, responsive and scalable web and mobile applications.</p>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card bg-white border border-gray-100 rounded-2xl p-6 shadow-sm" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon-box bg-teal-500">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-navy-700 mb-2">Custom Business Software</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Tailored software to streamline your operations.</p>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card bg-white border border-gray-100 rounded-2xl p-6 shadow-sm" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon-box bg-purple-500">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-navy-700 mb-2">IT Support & Training</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Reliable support and practical training for your team.</p>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="service-card bg-white border border-gray-100 rounded-2xl p-6 shadow-sm" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon-box bg-emerald-600">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-navy-700 mb-2">CCTV & Security</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Advanced security systems for your people and assets.</p>
+                    </div>
+                    <!-- Service 5 -->
+                    <div class="service-card bg-white border border-gray-100 rounded-2xl p-6 shadow-sm" data-aos="fade-up" data-aos-delay="500">
+                        <div class="icon-box bg-gold-500">
+                            <i class="fa-solid fa-credit-card"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-navy-700 mb-2">Digital Payment & Fintech</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Secure and fast digital payment solutions.</p>
+                    </div>
+                    <!-- Service 6 -->
+                    <div class="service-card bg-white border border-gray-100 rounded-2xl p-6 shadow-sm" data-aos="fade-up" data-aos-delay="600">
+                        <div class="icon-box bg-teal-600">
+                            <i class="fa-solid fa-plane-departure"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-navy-700 mb-2">Travel & Visa Assistance</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Your journey, our support — visas, flights, hotels and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-24 bg-gray-50" id="about">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5 relative" data-aos="fade-right">
+                    <div class="aspect-[4/5] rounded-3xl overflow-hidden relative shadow-2xl">
+                        <!-- Using a solid modern image since the provided one was a blurry photo of a screen -->
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" alt="Business Buildings" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/90 via-navy-900/20 to-transparent"></div>
+                        <div class="absolute bottom-8 left-8 text-white">
+                            <h3 class="font-bold text-xl leading-snug">Technology<br>Digital<br>Business Services</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:col-span-4" data-aos="fade-up" data-aos-delay="100">
+                    <span class="text-gold-500 font-extrabold text-sm tracking-widest uppercase mb-3 block">About Us</span>
+                    <h2 class="font-heading text-4xl font-bold text-navy-700 mb-6">Nexaro Solutions Group</h2>
+                    <p class="text-gray-500 text-lg leading-relaxed mb-8">
+                        Nexaro Solutions Group is a technology and business-services company based in Chad, providing innovative and reliable solutions to businesses, organizations and individuals.
+                    </p>
+                    <a href="divisions.html" class="btn-gold inline-flex px-8 py-3.5 rounded-full font-bold text-base items-center gap-2">
+                        Learn More <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="lg:col-span-3 space-y-8" data-aos="fade-left" data-aos-delay="200">
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 shrink-0 rounded-full bg-navy-700 text-white flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-navy-700 text-lg mb-2">Our Vision</h4>
+                            <p class="text-gray-500 text-sm leading-relaxed">To become a trusted technology and business-services company in Chad and Africa.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 shrink-0 rounded-full bg-navy-700 text-white flex items-center justify-center text-xl">
+                            <i class="fa-solid fa-gem"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-navy-700 text-lg mb-3">Our Core Values</h4>
+                            <ul class="space-y-2 text-sm text-gray-500 font-medium">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-500"></i> Innovation</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-500"></i> Reliability</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-500"></i> Customer Focus</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-500"></i> Security</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-teal-500"></i> Integrity</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divisions Section -->
+    <section class="py-24 bg-white" id="divisions">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end gap-6 mb-16" data-aos="fade-up">
+                <div class="max-w-2xl">
+                    <span class="text-gold-500 font-extrabold text-sm tracking-widest uppercase mb-3 block">Our Divisions</span>
+                    <h2 class="font-heading text-4xl font-bold text-navy-700 leading-tight mb-4">Three Strong Pillars. One Vision.</h2>
+                    <p class="text-gray-500 text-lg">Nexaro Solutions Group is structured around three key divisions, each focused on delivering specialized services while working together for your success.</p>
+                </div>
+                <a href="services.html" class="bg-navy-700 text-white hover:bg-navy-900 px-8 py-3 rounded-full font-bold transition-colors inline-flex items-center gap-2 shrink-0">
+                    Explore All Services <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Division 1 -->
+                <div class="division-card rounded-3xl p-10 flex flex-col min-h-[340px] text-white" style="background: linear-gradient(160deg, #123a6b, #0a1e39);" data-aos="fade-up" data-aos-delay="100">
+                    <span class="text-xs font-bold tracking-widest opacity-80 mb-2">BUILD • SUPPORT • SECURE</span>
+                    <h3 class="font-heading text-2xl font-bold mb-6">Nexaro Technology</h3>
+                    <ul class="space-y-3 text-sm opacity-90 mb-auto">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-white/70"></i> Web & Mobile Development</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-white/70"></i> Custom Business Software</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-white/70"></i> IT Support & Training</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-white/70"></i> CCTV & Security</li>
+                    </ul>
+                    <a href="#" class="mt-8 font-bold text-sm hover:translate-x-2 transition-transform inline-flex items-center gap-2 w-max">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Division 2 -->
+                <div class="division-card rounded-3xl p-10 flex flex-col min-h-[340px] text-white" style="background: linear-gradient(160deg, #0e9488, #075f57);" data-aos="fade-up" data-aos-delay="200">
+                    <span class="text-xs font-bold tracking-widest opacity-80 mb-2">PAY • CONNECT • GROW</span>
+                    <h3 class="font-heading text-2xl font-bold mb-6">Nexaro Digital</h3>
+                    <ul class="space-y-3 text-sm opacity-90 mb-auto">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-white/70"></i> Digital Payment</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-white/70"></i> Fintech Solutions</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-white/70"></i> Digital Services</li>
+                    </ul>
+                    <a href="#" class="mt-8 font-bold text-sm hover:translate-x-2 transition-transform inline-flex items-center gap-2 w-max">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Division 3 -->
+                <div class="division-card rounded-3xl p-10 flex flex-col min-h-[340px] text-navy-900" style="background: linear-gradient(160deg, #f0a828, #d6901c);" data-aos="fade-up" data-aos-delay="300">
+                    <span class="text-xs font-bold tracking-widest opacity-80 mb-2">VISA • FLY • EXPLORE</span>
+                    <h3 class="font-heading text-2xl font-bold mb-6">Nexaro Travel</h3>
+                    <ul class="space-y-3 text-sm opacity-90 mb-auto">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-navy-900/70"></i> Visa Assistance</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-navy-900/70"></i> Flight Booking</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-navy-900/70"></i> Hotel Booking</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-navy-900/70"></i> Travel Services</li>
+                    </ul>
+                    <a href="#" class="mt-8 font-bold text-sm hover:translate-x-2 transition-transform inline-flex items-center gap-2 w-max">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-24 bg-navy-900 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20" style="background: radial-gradient(circle at 70% 50%, #0e9488 0%, transparent 60%);"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-right">
+                    <span class="text-gold-400 font-extrabold text-sm tracking-widest uppercase mb-3 block">Why Choose Us</span>
+                    <h2 class="font-heading text-4xl font-bold text-white leading-tight mb-6">More Than Services.<br>We Build Lasting Partnerships.</h2>
+                    <p class="text-gray-300 text-lg mb-10">We combine technology, expertise and a customer-first approach to deliver solutions that create real value.</p>
+                    
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-gold-400 text-xl">
+                                <i class="fa-solid fa-lightbulb"></i>
+                            </div>
+                            <span class="text-white font-semibold">Innovative Solutions</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-gold-400 text-xl">
+                                <i class="fa-solid fa-handshake"></i>
+                            </div>
+                            <span class="text-white font-semibold">Trusted Partner</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-gold-400 text-xl">
+                                <i class="fa-solid fa-earth-africa"></i>
+                            </div>
+                            <span class="text-white font-semibold">Local Presence (Chad)</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-gold-400 text-xl">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <span class="text-white font-semibold">Dedicated Support</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative flex justify-center items-center" data-aos="zoom-in">
+                    <div class="relative w-full max-w-md aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-white/10">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop" alt="Business Partnership" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-navy-900/30 mix-blend-multiply"></div>
+                        <div class="absolute inset-4 border border-teal-400/30 rounded-2xl pointer-events-none"></div>
+                        
+                        <!-- Overlay globe graphic to match the original design intent -->
+                        <div class="absolute inset-0 flex items-center justify-center opacity-40 pointer-events-none">
+                             <i class="fa-solid fa-globe text-9xl text-teal-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact & Stats -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-right">
+                    <span class="text-gold-500 font-extrabold text-sm tracking-widest uppercase mb-3 block">Our Impact</span>
+                    <h2 class="font-heading text-4xl font-bold text-navy-700 leading-tight mb-6">Building a Stronger Digital Future</h2>
+                    <p class="text-gray-500 text-lg mb-10">We are proud to support businesses, organizations and individuals across Chad and Africa with reliable and innovative solutions.</p>
+                    
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                        <div class="bg-white border border-gray-200 rounded-2xl p-6 text-center shadow-sm">
+                            <span class="block font-heading text-3xl font-bold text-navy-700 mb-1">6+</span>
+                            <span class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Core Services</span>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-2xl p-6 text-center shadow-sm">
+                            <span class="block font-heading text-3xl font-bold text-navy-700 mb-1">3</span>
+                            <span class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Divisions</span>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-2xl p-6 text-center shadow-sm">
+                            <span class="block font-heading text-3xl font-bold text-navy-700 mb-1">100%</span>
+                            <span class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Client Focus</span>
+                        </div>
+                        <div class="bg-white border border-gray-200 rounded-2xl p-6 text-center shadow-sm">
+                            <i class="fa-solid fa-map-location-dot text-2xl text-navy-700 mb-2"></i>
+                            <span class="block text-xs text-gray-500 font-semibold uppercase tracking-wider">Chad & Africa</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <div class="bg-navy-900 rounded-3xl p-10 lg:p-12 relative overflow-hidden text-white shadow-2xl">
+                        <div class="absolute top-0 right-0 w-64 h-64 bg-teal-500/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+                        <i class="fa-solid fa-quote-left text-5xl text-gold-400 mb-6 opacity-50"></i>
+                        <p class="text-2xl font-heading font-medium leading-relaxed italic mb-8 relative z-10">
+                            "Technology is not just about machines, it's about people, progress and a better future."
+                        </p>
+                        <div class="flex items-center gap-4 relative z-10">
+                            <div class="w-12 h-1 bg-gold-400"></div>
+                            <span class="font-bold tracking-wide">Nexaro Solutions Group</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section py-24 relative" id="contact">
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-right">
+                    <span class="text-gold-400 font-extrabold text-sm tracking-widest uppercase mb-3 block">Let's Work Together</span>
+                    <h2 class="font-heading text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">Ready to Turn Your Ideas Into Reality?</h2>
+                    <p class="text-gray-300 text-lg">Contact us today and discover how Nexaro Solutions Group can help you achieve your goals.</p>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <div class="bg-white rounded-3xl p-8 lg:p-10 shadow-2xl">
+                        <form id="contact-form">
+                            <div class="grid sm:grid-cols-2 gap-4 mb-4">
+                                <div>
+                                    <input type="text" placeholder="Your Name *" required class="w-full bg-gray-50 border border-gray-200 text-gray-800 rounded-xl px-4 py-3.5 focus:outline-none focus:border-navy-500 focus:ring-1 focus:ring-navy-500 transition-all">
+                                </div>
+                                <div>
+                                    <input type="email" placeholder="Your Email *" required class="w-full bg-gray-50 border border-gray-200 text-gray-800 rounded-xl px-4 py-3.5 focus:outline-none focus:border-navy-500 focus:ring-1 focus:ring-navy-500 transition-all">
+                                </div>
+                            </div>
+                            <div class="mb-4 relative">
+                                <select class="w-full bg-gray-50 border border-gray-200 text-gray-800 rounded-xl px-4 py-3.5 pr-10 focus:outline-none focus:border-navy-500 focus:ring-1 focus:ring-navy-500 transition-all appearance-none cursor-pointer">
+                                    <option value="" disabled selected>Select Service</option>
+                                    <option>Web & Mobile Development</option>
+                                    <option>Custom Business Software</option>
+                                    <option>IT Support & Training</option>
+                                    <option>CCTV & Security</option>
+                                    <option>Digital Payment & Fintech</option>
+                                    <option>Travel & Visa Assistance</option>
+                                </select>
+                                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
+                                    <i class="fa-solid fa-chevron-down text-sm"></i>
+                                </div>
+                            </div>
+                            <div class="mb-6">
+                                <textarea placeholder="Your Message *" rows="4" required class="w-full bg-gray-50 border border-gray-200 text-gray-800 rounded-xl px-4 py-3.5 focus:outline-none focus:border-navy-500 focus:ring-1 focus:ring-navy-500 transition-all resize-none"></textarea>
+                            </div>
+                            <button type="submit" class="w-full btn-gold py-4 rounded-xl font-bold text-lg flex justify-center items-center gap-2">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-900 pt-20 pb-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
+                
+                <div class="lg:col-span-4">
+                    <img src="assets/images/nexaro-logo.png" alt="Nexaro Logo" class="h-12 w-auto logo-img object-contain mb-6">
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
+                        Connecting Solutions, Creating Possibilities. A premier technology and business-services company based in Chad.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:border-gold-400 hover:bg-gold-400/10 transition-all"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:border-gold-400 hover:bg-gold-400/10 transition-all"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:border-gold-400 hover:bg-gold-400/10 transition-all"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:border-gold-400 hover:bg-gold-400/10 transition-all"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="lg:col-span-2">
+                    <h4 class="text-white font-bold mb-6 uppercase tracking-wider text-sm">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-gold-400 transition-colors text-sm">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-gold-400 transition-colors text-sm">About Us</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-gold-400 transition-colors text-sm">Services</a></li>
+                        <li><a href="divisions.html" class="text-gray-400 hover:text-gold-400 transition-colors text-sm">Our Divisions</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-gold-400 transition-colors text-sm">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="lg:col-span-3">
+                    <h4 class="text-white font-bold mb-6 uppercase tracking-wider text-sm">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-gold-400 transition-colors text-sm">Web & Mobile Development</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gold-400 transition-colors text-sm">Custom Business Software</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gold-400 transition-colors text-sm">IT Support & Training</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gold-400 transition-colors text-sm">CCTV & Security</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gold-400 transition-colors text-sm">Digital Payment & Fintech</a></li>
+                    </ul>
+                </div>
+
+                <div class="lg:col-span-3">
+                    <h4 class="text-white font-bold mb-6 uppercase tracking-wider text-sm">Connect With Us</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-phone text-gold-400 mt-1"></i>
+                            <span class="text-gray-400 text-sm">+235 66 00 00 00</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-envelope text-gold-400 mt-1"></i>
+                            <span class="text-gray-400 text-sm">info@nexaro-solutions.com</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-gold-400 mt-1"></i>
+                            <span class="text-gray-400 text-sm">N'Djamena, Chad</span>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">© 2026 Nexaro Solutions Group. All rights reserved.</p>
+                <p class="text-gray-500 text-sm">Connecting Solutions, Creating Possibilities.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    
+</body>
+</html>
